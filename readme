@@ -1,16 +1,19 @@
+---
+
+```
 # 🚀 EMS WebApp (Employee Management System)
 
 A **web-based Employee Management System** built with **Python (Flask/Django)** and deployed on **AWS EC2** using **Nginx + Gunicorn**.  
 This project demonstrates **full-stack deployment** with domain configuration, reverse proxy, and process management.
 
----
+***
 
 ## 🌐 Live Demo
-🔗 [emswebapp.online](http://emswebapp.online)  
+🔗 [http://emswebapp.online](http://emswebapp.online)  
 
 *(Note: The app may not be running 24/7 if the server is stopped.)*
 
----
+***
 
 ## ⚙️ Features
 - ➕ Add, update, delete employee records  
@@ -19,7 +22,7 @@ This project demonstrates **full-stack deployment** with domain configuration, r
 - 📱 Responsive frontend for ease of use  
 - ☁️ Cloud-hosted with custom domain  
 
----
+***
 
 ## 🛠️ Tech Stack
 - **Backend:** Python (Flask/Django)  
@@ -28,7 +31,7 @@ This project demonstrates **full-stack deployment** with domain configuration, r
 - **Deployment:** AWS EC2, Nginx, Gunicorn, systemd  
 - **Domain:** Hosted via Namecheap / Route53  
 
----
+***
 
 ## 🚀 Deployment Architecture
 1. **AWS EC2 Instance** (Ubuntu)  
@@ -42,9 +45,9 @@ graph TD;
     A[Client Browser] --> B[Nginx (Port 80)];
     B --> C[Gunicorn (Port 8080)];
     C --> D[Flask/Django App];
-````
+```
 
----
+***
 
 ## 📦 Installation & Setup (Local)
 
@@ -76,14 +79,14 @@ graph TD;
 
    Visit: `http://127.0.0.1:5000/`
 
----
+***
 
 ## 🚀 Deployment on AWS
 
 ### Step 1: Setup EC2
 
-* Launch Ubuntu EC2 instance
-* Configure **Security Groups** (open port 80 for HTTP, port 22 for SSH)
+* Launch Ubuntu EC2 instance  
+* Configure **Security Groups** (open port 80 for HTTP, port 22 for SSH)  
 
 ### Step 2: Install Dependencies
 
@@ -152,35 +155,34 @@ sudo systemctl start emswebapp
 sudo systemctl enable emswebapp
 ```
 
----
+***
 
 ## 📸 Screenshots
 
 *(Add some screenshots of your app UI here)*
 
----
+***
 
 ## 🎯 Learning Outcomes
 
-* Hosting a Python web app on **AWS EC2**
-* Configuring **Nginx as reverse proxy**
-* Running apps in production with **Gunicorn + systemd**
-* Domain setup with **DNS records**
-* End-to-end deployment workflow
+* Hosting a Python web app on **AWS EC2**  
+* Configuring **Nginx as reverse proxy**  
+* Running apps in production with **Gunicorn + systemd**  
+* Domain setup with **DNS records**  
+* End-to-end deployment workflow  
 
----
+***
 
 ## 🤝 Contributing
 
 Pull requests are welcome! For major changes, open an issue first.
 
----
+***
 
 ## 📌 Author
 
-👤 **Your Name**
+👤 **Your Name**  
 🔗 [LinkedIn](https://www.linkedin.com/in/yuvrajkumar2022) | [GitHub](https://github.com/y2jjjj)
-
 ```
 
 ---
