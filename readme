@@ -1,6 +1,3 @@
-Here’s your README.md nicely formatted and GitHub-ready ✅
-
-````markdown
 # 🚀 EMS WebApp (Employee Management System)
 
 A **web-based Employee Management System** built with **Python (Flask/Django)** and deployed on **AWS EC2** using **Nginx + Gunicorn**.  
